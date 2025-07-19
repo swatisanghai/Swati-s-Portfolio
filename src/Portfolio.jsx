@@ -220,13 +220,17 @@ const Portfolio = () => {
               <FaEnvelope />
             </a>
           </div>
-          <a
-            href="/SwatiSanghai_Resume.pdf"
-            download
-            className="mt-8 inline-block bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full font-semibold tracking-wide transition"
-          >
-            Download Resume
-          </a>
+          {/*
+<div>
+  <a
+    href="/SwatiSanghai_Resume.pdf"
+    download
+    className="mt-8 inline-block bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full font-semibold tracking-wide transition"
+  >
+    Download Resume
+  </a>
+</div>
+*/}
         </motion.div>
       </header>
 
