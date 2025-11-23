@@ -396,9 +396,9 @@ const Portfolio = () => {
 </MotionSection>
       {/* Contact Section */}
       <MotionSection id="contact" title="Contact Me">
-        <div className="grid md:grid-cols-2 gap-12 items-start max-w-4xl mx-auto">
+          <div className="flex flex-col items-center justify-start py-12">
           {/* Contact Info */}
-          <div className="flex flex-col space-y-6 text-gray-700 dark:text-gray-300 text-lg font-semibold">
+            <div className="flex flex-col space-y-6 text-gray-700 dark:text-gray-300 text-lg font-semibold items-start">
             <a
               href="https://github.com/swatisanghai"
               target="_blank"
@@ -423,7 +423,7 @@ const Portfolio = () => {
             </a>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form 
           <form
             action="https://formspree.io/f/yourFormID"
             method="POST"
@@ -456,7 +456,7 @@ const Portfolio = () => {
             >
               Send Message
             </button>
-          </form>
+          </form>*/}
         </div>
       </MotionSection>
       <footer className="text-center py-6 mt-12 text-gray-600 dark:text-gray-400 font-semibold text-sm select-none">
