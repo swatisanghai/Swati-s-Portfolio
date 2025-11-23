@@ -88,11 +88,13 @@ const experience = [
     title: "Software Developer – DuaTask Inc., St. John’s, NL | October 2024 - Present",
     responsibilities: [
       "Developed and optimized Blazor WebAssembly applications using .NET 8/9, delivering responsive, high-performance user interfaces.",
-      "Designed, built, and integrated RESTful APIs to support secure, data-driven workflows for a pharmacy compounding application.",
+      "Designed, built, and integrated RESTful APIs to support secure, data-driven workflows for a pharmacy compounding application, leveraging C#, .NET Core.",
       "Implemented robust authentication and authorization mechanisms using JWT and ASP.NET Core Identity, enabling role-based access control across user roles.",
-      "Managed data persistence and modeling with Entity Framework Core, ensuring efficient and scalable database interactions.",
+      "Managed data persistence and modeling with Entity Framework Core, ensuring efficient and scalable database interactions using SQL Server.",
       "Collaborated in Agile ceremonies, contributed to sprint planning, and practiced version control using Git to maintain code quality and traceability.",
       "Diagnosed and resolved bugs and performance issues, contributing to overall system stability and user satisfaction.",
+      "Implemented CI/CD pipelines with GitHub Actions, automating builds and deployments, deployed and managed applications on Azure.",
+      "Applied Git/GitHub version control best practices to maintain code quality, traceability, and team collaboration."
     ],
   },
   {
